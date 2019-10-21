@@ -1,6 +1,8 @@
 #include "bracechecker.h"
 #include "stack" 
-bracechecker::bracechecker(){};
+using namespace std;
+bracechecker::bracechecker (){
+};
 bool bracechecker::isbalanced(const string& data){
     stack <int> st;
     for (int i = 1; i < data.length(); i++){

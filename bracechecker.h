@@ -1,8 +1,7 @@
 #pragma once
 #include <string>
-using namespace std;
 class bracechecker{
     public:
-    bracecheker();
-    static bool isbalanced(string&);
+    bracechecker();
+    static bool isbalanced(const std::string&);
 };
